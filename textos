@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Exemplo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Título da Página</h1>
+    </header>
+    <main>
+        <p>Este é um texto de exemplo que demonstra o uso de HTML e CSS.</p>
+        <p><mark>Esta é uma frase marcada.</mark></p>
+        <p><em>Esta é uma frase em itálico.</em></p>
+    </main>
+</body>
+</html>
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    background: #f4f4f4;
+    padding: 1rem;
+}
+
+header h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+main {
+    padding: 1rem;
+}
+
+p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+mark {
+    background-color: yellow;
+}
+
+em {
+    font-style: italic;
+}
